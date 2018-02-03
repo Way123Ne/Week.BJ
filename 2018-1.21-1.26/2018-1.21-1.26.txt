@@ -1,0 +1,54 @@
+﻿一、本周完成(2018.1.21-1.26)
+1、学习<<大话设计模式>>中的适配器模式
+2、学习HttpUrlConnection
+3、学习IO流close(),flush(),try...catch...finally
+4、学习<<head first java>>第7、8章
+5、android studio视频教学26-30节
+二、本周总结(2018.1.21-1.26)
+1、<<大话设计模式>>中的适配器模式:
+    https://github.com/Way123Ne/JavaDemonEclipse/edit/master/AdapterDemo
+2、学习HttpUrlConnection的get()、post()：
+    https://github.com/Way123Ne/JavaDemonEclipse/tree/master/HttpUrlConnectionDemo
+3、学习IO流close(),flush(),try...catch...finally：
+    https://github.com/Way123Ne/JavaDemonEclipse/tree/master/IODemo
+4、学习<<head first java>>第7、8章-继承，多态与接口
+1>继承
+**找出类中的共同部分           **提取出新类        **子类自动继承父类的功能       
+2>覆盖:子类重新定义继承下来的方法以改变或延伸此方法的行为
+3>如何知道继承设计是对的？
+**例子: "河马是动物" -〉合理                              "动物不一定是河马" -〉不合理
+**IS-A测试类验证继承结构的合理性，IS-A关系是单向的
+4>如何知道子类能够继承父类中的哪些东西 ？
+**下面4种存取权限，左边最受欢迎，越往右边限制程度越小
+private(类型的成员不会被继承)        default            protected               public(类型的成员会被继承)
+5>设计子类是否有层次上的限制？最多能够设计几层？
+大多数的继承的层次有深度，但是不会太深，大部分不会超过一或两层
+6>覆盖的规则:
+**参数和返回类型必须一样     **不能降低方法的存取权限
+7>重载:
+**两个方法的名称相同         **两个方法的参数不同                 **返回类型、存取权限均可更改
+8>多态：
+要使用多态，我们还需要接口，它是一种100%纯抽象类
+9>ArrayList<DotCom>是什么意思？
+  限制它的类型，在java5.0之前限制它的类型，如果写成ArrayList<Dog>，则此ArrayList受限只能保存Dog的对象
+10>Object的四种基本方法：
+**toString()     **hashCodel()     **equals()      **getClass()
+11>接口，接口，到底它有啥用，怎么用?(一张图搞定)
+     http://blog.csdn.net/qq_36287601/article/details/79187128
+12>多态2要素:  **类        **接口
+5、android studio视频教学26-30节
+1>全局搜索:double shift
+2>打开近期文件:Ctrol + E
+3>打开设置对话框:Ctrol + alt + s
+4>打开导航兰搜索文件：alt + home
+5>终端窗口一体化      
+三、本周感想(2018.1.21-1.26)
+1>学习新知识的同时，需及时复习已学知识，定期复习
+2>感觉设计模式多数来源于日常生活，代码原理有时理解起来困难可以多联想下日常生活实际场景
+3>android应用开发的一些难理解且重点的基础知识点，应及时多问在一起工作的同事(经验多、能力强),同时理解的基础上做好笔记
+四、下周代办(2018.1.28-2.2)
+1>学习<<大话设计模式>>装饰模式
+2><<head first java>>第9、10章
+3>android studio视频教学33-40节
+4>学习自定义控件-完成1个小demo
+5>复习java se和android基础知识(自己整理笔记为主)

@@ -1,0 +1,57 @@
+﻿一、本周完成(2018.1.14-1.19)
+1、学习<<大话设计模式>>中的观察者模式
+2、java中构建与解析json
+3、将greendao配置到AS上
+4、学习<<head first java>>第5、6章
+5、android studio视频教学20-26节
+二、本周总结(2018.1.14-1.19)
+1、<<大话设计模式>>中的观察者模式:
+     https://github.com/Way123Ne/JavaDemonEclipse/tree/master/ObserverDemo
+2、java中构建与解析json的两种方式：
+     https://github.com/Way123Ne/JavaDemonEclipse/tree/master/GsonDemo
+     https://github.com/Way123Ne/JavaDemonEclipse/tree/master/JsonObjectDemo
+3、将greendao配置到AS上：
+**greendaoDemo：
+    https://github.com/Way123Ne/droidDemonAS/tree/master/GreenDao-master
+**配置过程中遇到的问题：AS报错 Error:failed to find Build Tools revision 23.0.2 引发的一系列问题
+     http://blog.csdn.net/qq_36287601/article/details/79122656
+4、学习<<head first java>>第五、六章
+1>流程
+**流程图   **步骤　　　
+2>编写程序的三步
+**方法论   **过程   **步骤
+实际工作往往遵循个人、项目、客户的规范
+3>开发类包含如下元素：
+**列出实例变量和方法    **编写方法的伪码
+**编写方法的测试用程序  **实现类
+**测试方法              **出错或重新设计
+4>伪码
+**含义：能帮助你专注于逻辑而不需要顾虑到程序语法
+**组成部分：实例变量的生命、方法的声明、方法的逻辑
+**好处：帮助我们更好的了解程序代码需要做什么
+5>测试码：测试用的程序代码
+6>真实码：实际设计出的真正java程序代码
+7>创建新类需３种东西：伪码、测试码、真实码
+8>如果要知道循环执行多少次，应使用for循环而不是while循环
+9>在java的api中，类是被包装在包中
+10>要使用api中的类，必须知道它放在哪个包中
+11>java中不必要导入String类或System类，因为java.lang是个经常
+　使用的基础包，java.lang.String和java.lang.System是独一无二的类
+5、android studio视频教学20-26节
+**如何彻底删除一个AS项目
+   http://blog.csdn.net/qq_36287601/article/details/79122705
+**AS常用设置
+   http://blog.csdn.net/qq_36287601/article/details/79123116
+三、本周感想(2018.1.14-1.19)
+1>重点学习使用android studio,AS慢慢使用好了发现比eclipse好用太多了，慢慢从eclipse向android studio转，
+   同时应着手学习kotlin
+2>在工作中及时总结自己不会的知识点，利用业余时间进行弥补，之后重新结合实际工作中用到该知识点的地方同时结合
+    所学重点理解该知识点，这样理解深刻。
+3>必须保持持续学习的势头，跟上技术的变更
+四、下周代办(2018.1.21-1.26)
+1>梳理greendao-master小程序大体思路
+2>学习HttpUrlConnection
+3><<head first java>>第7、8章
+4><<大话设计模式>>中的适配器模式
+5>android studio视频教学26-32节
+上一封 下一封« 返回

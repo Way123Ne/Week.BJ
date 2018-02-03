@@ -1,0 +1,26 @@
+﻿2017-12-26   Thr
+1>阅读<<大话设计模式>>学习第一章-简单工厂模式
+
+2017-12-27   Wes
+1>初识SQLite数据库
+*DBUtils.java 
+*SQLiteOpenHelper.java 
+*SharedPerferences.java
+2>如何查看应用程序本地使用的数据库
+3>shell常用的2个命令
+
+2017-12-28   Tue
+1>初识多线程
+*Handler(重点)
+*Activity.runOnUiThread(Runnable)
+*View.post(Runnable)
+*View.postDelayed(Runnable,long) 
+*AsyncTask
+
+2017-12-29&&30   Fri&&Sat
+1>初识ListView控件
+**ListView作用
+**创建ListView需要的元素
+2>常用的4种适配器
+3>创建一个ListViewDemo小程序
+

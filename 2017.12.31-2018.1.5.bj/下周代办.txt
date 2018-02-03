@@ -1,0 +1,23 @@
+﻿2018.1.7   Sun
+1><<大话设计模式>>-单例模式
+2>android studio 视频教程8-9集
+
+2018.1.8   Mon
+1><<大话设计模式>>-单例模式
+2>android studio 视频教程10-11集
+
+2018.1.9   Tue
+1><<head frist java>>第四章
+2>android studio 视频教程12-13集
+
+2018.1.10   Wes
+1><<head frist java>>第四章
+2>android studio 视频教程14-15集
+
+2018.1.11   Thr
+1>greendao讲义第一部分(csdn文档)
+2>android studio 视频教程16集
+
+2018.1.12   Fri
+1>greendao讲义第一部分(csdn文档)
+2>android studio 视频教程17-18集

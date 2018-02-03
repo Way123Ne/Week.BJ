@@ -1,0 +1,51 @@
+﻿一、本周完成(2018.1.7-1.12)
+1、学习<<大话设计模式>>中的单例设计模式
+2、复习上周所学-简单工厂模式
+3、学习<<head first java>>第四章-对象的行为
+4、学习android studio 教学视频13-19节视频
+5、greendao配置到as中(报错，未完成)
+二、本周总结(2018.1.7-1.12)
+1、<<大话设计模式>>中的单例设计模式:
+     https://github.com/Way123Ne/JavaDemonEclipse/tree/master/SingletonDemo
+2、复习上周所学-简单工厂模式：
+     https://github.com/Way123Ne/JavaDemonEclipse/tree/master/CaculatorDemo
+3、学习<<head first java>>第四章-对象的行为
+1>方法会运用形参，调用的一方会传入实参，
+    实参是传给方法的值，当它传入方法后就成了形参
+2>如果你将一个方法声明有返回值，你就必须返回所声明类型的值
+    eg:int theSecret = life.giveSecret();
+         int giveSecret() { reture 42;}
+3>可以将变量当作参数来传入，只要类型相符就可以
+4>传给方法的参数必须符合声明时的数量、顺序和类型
+5>Getter与Setter可以让你执行get与set
+    Getter的目的是返回实例变量的值
+    Setter的目的是取用一个参数来设定实例变量的值
+6>实例变量永远都会有默认值。
+    intergers  0; floating points  0.0;
+    booleans  false;references  null;
+7>局部变量没有默认值，如果在变量被初始化前就要使用的话，编译器会显示错误
+8>Demo例子2个：
+   https://github.com/Way123Ne/JavaDemonEclipse/tree/master/ParamDeliveryDemo
+   https://github.com/Way123Ne/JavaDemonEclipse/tree/master/GetSetDemo
+4、学习android studio 教学视频13-19节视频
+1>创建第一个android项目：公司域名将生成一个包，包的名称应该是一个全球唯一的字符串
+2>as项目结构
+**Project\src\build.gradle->应用程序的构建脚本，针对android的什么版本？ 和最小的SDK版本是什么？自己配制该文件，
+   同时里面有个proguard-rules.pro的文件，其作用是尽量减少android应用程序包的代码，然后上传到应用商店中
+**Project\gradle\build.gradle->更高层次的指令，不需要自己改动
+**视图：project,android,packages,problems,production,test,projecton files
+3>as的一些简单设置(字体、颜色...):File->setting
+4>将adt上的项目导入到android studio上：选中当前项目，右击close掉当前项目,返回到as欢迎界面，
+    即可看到import   project(eclipse ADT)选项
+三、本周感想(2018.1.7-1.12)
+1>学过的知识应间隔一定时间段(一周)及时复习
+2>书上所讲的知识点应边敲代码边巩固复习，注意书上所讲的细节知识点，同时做好笔记记录。
+3>案例demo必须手动亲自敲下代码，这样加深印象，更加便于自己理解
+四、下周代办(2018.1.14-1.19)
+1>java中构建与解析json
+2>重新将greendao配置到AS上
+3><<head first java>>第5、6章
+4><<大话设计模式>>中的观察者模式
+5>android studio视频教学20-26节
+   
+

@@ -1,0 +1,50 @@
+一、本周完成(2018.1.28-2.3)
+1、学习<<大话设计模式>>中的装饰者模式
+2、学习Fragment的静态使用方法
+3、总结整理Java api常用软件包~util、lang、text包体系结构
+4、总结整理android UI 体系结构图:
+5、android studio视频教学33-38节
+二、本周总结(2018.1.28-2.3)
+1、<<大话设计模式>>中的装饰者模式:
+    https://github.com/Way123Ne/JavaDemonEclipse/tree/master/DecoratorDemo
+2、Fragment静态方法小练习:
+    https://github.com/Way123Ne/droidemonEclipse/tree/master/FragmentDemo
+3、总结整理Java api常用软件包~util、lang、text包体系结构:
+ 1)https://github.com/Way123Ne/JavaDemonEclipse/blob/master/Java.util%E5%8C%85%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84.mmap
+ 2)https://github.com/Way123Ne/JavaDemonEclipse/blob/master/Java.lang%E5%8C%85%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84.mmap
+ 3)https://github.com/Way123Ne/JavaDemonEclipse/blob/master/Java.text%E5%8C%85%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84.mmap
+4、总结整理android UI 体系结构图:
+     https://github.com/Way123Ne/droidUI
+5、android studio教学视频33-38节：
+1>将Git安装到Android Studio中步骤：
+**下载安装Git客户端                       **android studio中ctrl+alt+s
+**Version Control       **Git          **填写Git.exe安装路径         **Test
+2>将Github与android studio相关联：
+**注册一个github帐号                     **as中ctrl+alt+s                **Version Control
+**Github                    **填写自己Github用户名和密码                **Test
+**点击ok后自己可设置一个密码          **VCS->import to version control
+**share project on Github(将本地项目分享到github上)                **new repositories name
+**Project中找到.gitgnore文件：可添加一些自己不想分享到github上的文件
+3>两个Gradle脚本文件：
+**build.gradle(Moudle app)->主要是应用程序的配置~minSDKVersion...;
+                                       ->最后依赖关系
+**build.gradle(Project project name)->通常情况下不用修改，有两个引用方法，名为jcenter;
+                                                     ->依赖关系里面classpath表示当前gradle插件的包名和当前版本，
+                                                         升级版本的话classpath里的数值会自动更改。
+4>添加远程Libraries库的步骤？
+**SDK中的库                      **File->project structure->app->dependence->+号-〉选择
+**build.gradle(Moudle app)中引用的库自动添加到依赖关系方法中即dependence()中
+5>向as中导入jar包：同eclipse操作一样
+6>快捷键一个:ctrl+shift+enter->完成当前行代码，并自动添加;                                           
+三、本周感想(2018.1.28-2.3)
+1) 实际工作中发现自己所学欠缺的地方，重点进行弥补如下两点:
+    **目前java 常用api 不能较好的运用        **android UI 常用的每种控件需做一个小demo
+2) 首先理解代码原理，其次记住各项常用知识点
+四、下周代办(2018.2.4-2.13)
+1>将总结整理好的java常用api，亲自动手练习一遍:
+    http://blog.csdn.net/qq_36287601/article/details/78699994
+2>将总结整理好的android UI 各种常用控件及其属性，亲自动手练习一遍:
+    https://github.com/Way123Ne/droidUI
+3><<大话设计模式>>策略模式&&代理模式
+4>结束android studio 教学视频39-43节
+5>练习一个多线程小demo

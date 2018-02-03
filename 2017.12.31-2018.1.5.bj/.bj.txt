@@ -1,0 +1,142 @@
+﻿一、本周完成(2017.12.31-2018.1.5)
+2017.12.31   Sun   
+1>阅读完<<head first java>>书的第一章
+2>复习Git教程(1-3节)-廖雪峰官方网站
+
+2018.1.1     Mon
+1>阅读完<<head first java>>书的第二章
+2>复习完Git教程(4节)-廖雪峰官方网站
+
+2018.1.2     Tue
+1>阅读完<<head first java>>书的第三章
+2>复习完Git教程(5-6节)-廖雪峰官方网站
+
+2018.1.3     Wes
+1>android studio 视频教程第1-3集
+2>复习完Git教程(7节)-廖雪峰官方网站
+
+2018.1.4     Thr
+1>android studio 视频教程第4-7集
+2>仿照<<大话设计模式>>第一章示例代码重新写了一遍
+3>搜索greendao学习资料~greenDAO讲义(csdn学习文档)
+
+2018.1.5     Fri   耽误一天，晚上加班
+
+二、本周总结(2017.12.31-2018.1.5)
+2017.12.31    Sun   
+1><<head first java>>第一章
+**只要while条件为true,循环块中的程序代码就会一直重复执行
+**java中的两种Random()
+java.lang.Math.Random() && java.util.Random()
+2>Git复习1-3节
+**创建一个仓库:mkdir 仓库名    **进入一个仓库：cd 仓库名
+**显示一个仓库的路径:pwd       **初始化一个仓库:git init 仓库名
+**向一个仓库中添加文件:git add 文件名.后缀名
+**将一个仓库中已经添加的文件 进行提交:git commit -m xxxxx
+  (-m xxxxx 表示此次提交的说明)
+**查看仓库的状态:git status    **查看仓库中的文件修改前后的不同:git diff
+**修改完仓库中文件的内容，之后再次add、commit -m
+  (-m 之后的说明即可当作一次新的版本来看)
+
+2018.1.1    Mon
+1><<head first java>>第二章
+**面向对象的重点
+举例：当你要旋转某个三角形的时候，程序代码会调用该三角形对象的rotate()方法，
+      调用的一方不需要知道该对象如何执行这个动作(实现过程)。如果要加入新的对象，
+      只要写出该对象类型的类就行，让新的对象维持自己的行为
+**类与对象之间的不同
+举例:对象Dog既可以包括 hapi dog(既是单独类也是对象) 也可以包括 Muyang dog(同上)...
+2>Git复习4节
+**查看当前仓库中的不同版本：git log
+**查看当前仓库中的不同版本(简装)：git log --pretty=online
+**当前版本回退到上一版本:git reset --hard HEAD^(hard HEAD^^(HEAD~100))
+**已经回退到上一版本如何回到先前版本:git reset --hard 3567238(先前版本commit id)
+   无法找到先前版本commit id？使用git reflog 命令查看
+**暂存区:add 操作之后即把相对应的文件放入到暂存区
+**版本库:.git			**工作区：hellogit
+**撤销/丢弃工作区的修改:git checkout --文件名
+**删除文件:git rm 文件名
+**将本地仓库与远程github上的仓库进行关联：
+   git remote add origin git@@github.com:michaelliao/learngit.git
+   关联之后，使用git push -u origin master 第一次推送master分支的所有内容
+   因为第一次推送到远程仓库，远程仓库内容为空，所以添加-u参数
+   此后，每次本地作了修改add commit后，可通过git push origin master把本地
+   master分支的最新修改推送到github
+**将远程仓库中的内容克隆(http||ssh)到本地：git clone it@github.com:michaelliao/gitskills.git
+
+2018.1.2    Tue
+1><<head first java>>第三章
+**注意："f",除非加上f,否则所有带小数点的值都回被java当作double处理
+  举例~ float f = 32.5f;
+2>Git复习5-6节
+**创建并切换到dev分支:git checkout -b dev
+**查看当前分支：git branch       **切换回dev分支:git checkout master
+**把dev分支的工作成果合并到当前(master)分支：git merge dev
+**合并完成后，删除dev分支：git branch -d dev     **查看分支：git branch
+**将dev分支合并到当前分支:git merge --no-ff dev   
+   (--no-ff参数就可以用普通模式合并，合并后的历史有分支，
+   能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并)
+
+2018.1.3    Wes
+1>android studio 视频教程第1-3集
+**as的下载、简介
+2>Git复习7节
+** 当前分支工作进行一半，还没法提交怎么办:git stash
+   即把当前工作现场储藏起来，等解决完当前任务后恢复到当前分支继续工作
+** bug分支：首先明确在哪个分支上修复bug,then切换到哪个分支上，创建并
+　 切换到bug修复的分支上，修复完成后切换到哪个分支上，并完成合并(--no-ff),
+   最后删除掉用于bug修复的分支，同时切换回原工作到一半的分支上继续工作
+** 丢弃一个没有被合并过的分支，可强行删除:git branch -D 分支名
+** 开发一个新feature，最好新建一个分支
+** 查看远程仓库的信息:git remote or git remote -v(显示详细信息)
+** 将分支上的本地提交推送到远程库：git push origin master
+
+2018.1.4    Thr
+1>android studio 视频教程第4-7集
+**as的安装&&as的版本更新
+2><<大话设计模式>>第一章
+**降低耦合度：将业务逻辑与界面逻辑分开
+**UML几种关系类型:依赖、聚合、合成、继承关系
+
+三、本周感想(2017.12.31-2018.1.5)
+1> <<head first java>>第1-3章感想
+**书上很多细节知识点是自己之前所欠缺的，需及时补充自身欠缺的知识点
+**看后本书作者对同一java知识点的理解与感悟，使自己对同一知识点的理解更加深刻
+**突然觉得一个java应用程序执行过程~就是很多不同对象在彼此交流
+2> Git使用复习感想
+**重点记住git使用的几条基本命令语句 同时 日常练习中多使用git命令
+**通过阅读他人所写的git使用教程，应从中总结出属于自己的~
+    git命令语句使用总结(自己的文档注释自己一看就懂，尽量不copy他人的总结)
+3> <<大话设计模式>>第一章感想
+**重新回到第一章，仿照书中的示例程序代码写一遍，发现目前工作中的一个apk
+    使用的就是简单工厂设计模式所编写的
+4> 其他感想
+  下周代办计划好的任务，往往在实际执行中发生很多小插曲，导致预先计划的任务
+  不能保量完成。
+
+四、下周代办(2018.1.7-2018.1.12)
+2018.1.7   Sun
+1><<大话设计模式>>-单例模式
+2>android studio 视频教程8-9集
+
+2018.1.8   Mon
+1><<大话设计模式>>-单例模式
+2>android studio 视频教程10-11集
+
+2018.1.9   Tue
+1><<head frist java>>第四章
+2>android studio 视频教程12-13集
+
+2018.1.10   Wes
+1><<head frist java>>第四章
+2>android studio 视频教程14-15集
+
+2018.1.11   Thr
+1>greendao讲义第一部分(csdn文档)
+2>android studio 视频教程16集
+
+2018.1.12   Fri
+1>greendao讲义第一部分(csdn文档)
+2>android studio 视频教程17-18集
+
+ 

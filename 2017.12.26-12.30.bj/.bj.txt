@@ -1,0 +1,139 @@
+﻿一、本周完成
+2017-12-26   Thr
+1>阅读<<大话设计模式>>学习第一章-简单工厂模式
+
+2017-12-27   Wes
+1>初识SQLite数据库
+*DBUtils.java 
+*SQLiteOpenHelper.java 
+*SharedPerferences.java
+2>如何查看应用程序本地使用的数据库
+3>shell常用的2个命令
+
+2017-12-28   Tue
+1>初识多线程
+*Handler(重点)
+*Activity.runOnUiThread(Runnable)
+*View.post(Runnable)
+*View.postDelayed(Runnable,long) 
+*AsyncTask
+
+2017-12-29&&30   Fri&&Sat
+1>初识ListView控件
+**ListView作用
+**创建ListView需要的元素
+2>常用的4种适配器
+3>创建一个ListViewDemo小程序
+
+二、本周总结
+2017-12-26   Thr  简单工厂模式
+1>面向对象的好处？
+**可维护性  **可扩展性
+**可复用性  **灵活性好
+**通过封装、继承、多态把程序的耦合性降低
+2>编程的原则？
+**用尽可能的办法去避免重复
+
+2017-12-27   Wes  数据库
+1>DBUtils、MyDatabaseHelper(onCreate()&&onUpgrade())extends 
+  SQLiteOpenHelper、SharedPreferences三者关联?
+**DBUtils用来操作数据库
+**MyDatabaseHelper用来创建或操作数据库
+**SharedPreferences用来保存和获取永久参数[以键值对形式保存]
+2>如何查看应用程序本地数据库?
+**avd-> ddms -> file explorer -> data -> data ->
+  package name -> databases -> .db
+3>shell常用的2个命令？
+**ls(相当于windows中的dir) 
+**cd       
+
+2017-12-28   Tue   多线程
+android平台只允许UI线程修改Activity里的UI组件,这样会导致新启动的线程无法
+动态改变界面组件的属性值,但在实际应用开发中,需要让新启动的线程周期性地改变界面组件的属性值 
+1>Handler、looper[UI线程中,系统已经初始化一个Looper对象,因此程序直接创建handler即可,然后通过handler来发送消息,接收处理消息]
+  [程序员自己启动的子线程,必须自己创建一个Looper对象](prepare()&&loop())、
+  MessageQueue(先进先出方式管理Message)、Message(Message msg/arg1/arg2/int) 三者关联？
+->  
+  handler发送消息/接收处理消息->
+  looper()每个线程只能有一个looper,looper负责管理MessageQueue,
+  looper的loop()使用一个死循环不断读取并取出MessageQueue中的Message->
+  loop()将取出的消息发送给相对应的handler进行处理.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+2017-12-29&&30   Fri-Sat   列表控件及适配器
+1>ListView作用?
+将数据填充到布局
+处理用户的选择点击等操作
+2>ListView创建需要的元素?
+ListView中每一列的view
+填入view的数据或图片等
+连接数据与ListView的适配器                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+3>常用的适配器
+ArrayAdapter<T>        用来绑定一个数组,支持泛型操作;简单易用的adapter,通常用于将数组或
+                       List集合的多个值包装成多个列表项
+
+SimpleAdapter          用来绑定在xml中定义的控件对应的数据,并不简单,功能强大的adpater,可
+  		       用于将List集合的多个对象包装成多个列表项
+
+BaseAdapter            通用的基础适配器,通常用于被扩展
+
+SimpleCursorAdapter    用来绑定游标得到的数据                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+4>创建一个ListViewDemo的步骤
+**布局文件中声明ListView控件
+**代码文件中找出ListView控件id
+**为每一行ListView中view 声明出一个数组
+**创建一个ArrayAdapter对象,同时指定ListView样式
+**为ListView控件设置适配器
+
+三、本周感想
+2017-12-26   Tue   简单工厂模式
+1>看书的学习方式相对来说体系结构化更强，且便于在书上做标记，
+  方便查阅。
+2>书上的一节知识点看完，需要再边敲代码边重新看一遍，这样对
+  此知识点的理解更加的透彻
+3>感觉简单工厂模式有点像是框架，等同于一本书目录所起到的功能。
+
+2017-12-27   Wes   数据库
+1>根据自己所了解的Sqlite知识并结合实际项目中用到的数据库知识进行
+  对比分析，有助于自身对Sqlite知识点的进一步理解。   
+
+2017-12-28   Tue   多线程
+1>根据自己所了解的多线程知识并结合实际项目中用到的多线程知识进行
+  对比分析，有助于自身对多线程知识点的进一步理解。   
+2>首先自己需要初步理解和掌握多线程方面的基础知识点，之后再找出
+  多线程部分逻辑思维不懂的代码，有针对性的询问他人。
+
+2017-12-29&&30   Fri&&Sat   列表控件及适配器
+1>针对自己不太懂的知识点，自己创建一个小demo运行下，再根据界面
+  展示效果同时结合对应代码，易于理解不太懂得知识点。
+  
+四、下周代办
+		2017.12.31-2018.1.5
+2017.12.31
+1>看完<<Head First Java>>第1、2章
+2>复习Git教程(1-3节)-廖雪峰官方网站
+3>搜集greendao数据库框架学习资料
+
+2018.1.1
+1>看完<<大话设计模式>>第二章
+2>复习Git教程(4-7节)-廖雪峰官方网站
+3>搜集greendao数据库框架学习资料
+
+2018.1.2
+1>android studio 视频教程第1、2集
+2>看完<<Head First Java>>第3章
+
+2018.1.3
+1>android studio 视频教程第3、4集
+2>看完<<Head First Java>>第4章
+
+2018.12.4
+1>android studio 视频教程第5、6集
+2>看完<<大话设计模式>>第3章
+
+2018.12.5
+1>android studio 视频教程第7、8集
+2>看完<<大话设计模式>>第3章
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             L
+
