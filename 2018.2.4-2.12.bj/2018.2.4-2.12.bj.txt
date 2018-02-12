@@ -1,0 +1,52 @@
+﻿一、本周完成(2018.2.4-2.12)
+1>亲自动手练习一遍 总结整理好的java常用api
+2>亲自动手练习一遍 总结整理好的android UI 各种常用控件
+3>学习<<大话设计模式>>策略模式&&中介者模式
+4>学习多线程各种状态使用方法及线程间数据传输的方法
+二、本周总结(2018.2.4-2.12)
+1> 亲自动手练习一遍 总结整理好的java常用api
+1) Collection单列集合框架常用方法及其小练习:
+   https://github.com/Way123Ne/Javaapi/tree/master/CollectionDemo
+2) ArrayList集合常用方法及其小练习:
+   https://github.com/Way123Ne/Javaapi/tree/master/ArrayListDemo
+3) LinkedList集合特有方法及其小练习:
+   https://github.com/Way123Ne/Javaapi/tree/master/LinkedListDemo
+4) HashSet集合特有方法及其小练习:
+   https://github.com/Way123Ne/Javaapi/blob/master/HashSetDemo
+5) TreeSet集合特有方法及其小练习:
+   https://github.com/Way123Ne/Javaapi/tree/master/TreeSetDemo
+6) Map双列集合框架常用方法及其小练习：
+  https://github.com/Way123Ne/Javaapi/tree/master/MapDemo
+7) IO流常用方法&&注意事项 ==> 及其小练习:
+   https://github.com/Way123Ne/Javaapi/tree/master/IOTest
+8) String常用方法及其小练习:
+   https://github.com/Way123Ne/Javaapi/tree/master/StringDemo
+9) StringBuffer常用方法及其小练习：
+   https://github.com/Way123Ne/Javaapi/blob/master/StringBufferDemo
+10) Arrays常用方法及其小练习：
+  https://github.com/Way123Ne/Javaapi/tree/master/ArraysDemo
+11)Object常用方法及其小练习:
+  https://github.com/Way123Ne/Javaapi/tree/master/ObjectDemo
+2>亲自动手练习一遍 总结整理好的android UI 各种常用控件
+1)对话框小练习(AlertDialog&&PopuWindow):
+  https://github.com/Way123Ne/androidUI/tree/master/AlertDialogDemo
+  https://github.com/Way123Ne/androidUI/tree/master/PopuWindowDemo
+2)日期时间选择小练习：
+  https://github.com/Way123Ne/androidUI/tree/master/DatePickerDemo
+3)属性动画小练习:
+  https://github.com/Way123Ne/androidUI/tree/master/FrameAnimationDemo
+4)视频控件小练习:
+ https://github.com/Way123Ne/androidUI/tree/master/VideoViewDemo
+3>学习<<大话设计模式>>策略模式&&中介者模式
+1)中介者模式小练习:
+ https://github.com/Way123Ne/designpattern/tree/master/MediatorDemo
+2)策略模式小练习:
+ https://github.com/Way123Ne/designpattern/tree/master/StrategyDemo
+4>多线程各种状态sleep、wait、yield、join、priority及其线程间数据传输小练习:
+ https://github.com/Way123Ne/Javaapi/tree/master/ThreadDemo
+三、本周感想(2018.2.4-2.12)
+1)需打好基础知识，多动手练习，多写代码
+2)拿到一个小demo，需 先学会读代码，理清代码逻辑，然后再着手修改或写自己的代码
+四、下周代办(2018.2.13-2.22)
+      回家过年，暂时休息下
+ 
