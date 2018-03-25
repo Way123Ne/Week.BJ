@@ -1,0 +1,43 @@
+一、本周完成(2018.3.18-3.24)
+1>学习Fragment生命周期
+2>学习事件监听
+2.1 EditText监听~ addTextChangedListener(修改)      
+2.2 CheckBox监听~ onCheckedChangeListener
+2.3 手势监听~ onTouchListener
+2.4 普通监听~ onClickListener
+3>andriod零散知识点总结
+3.1 Application类简介
+3.2 Context简介
+3.3 logUtil简介
+4>了解Activity的状态
+5>其他：Android studio 里的Cannot resolve symbol 'R'问题？
+二、本周总结(2018.3.18-3.24)
+1>Fragment生命周期图:
+  https://blog.csdn.net/qq_36287601/article/details/79647580
+2>事件监听:
+2.2 CheckBox监听~ onCheckedChangeListener:
+    https://github.com/Way123Ne/android/tree/master/setonCheckedChangeListenerDemo
+2.3 手势监听~ onTouchListener:
+    简介:https://blog.csdn.net/qq_36287601/article/details/79681533
+    Demo:https://github.com/Way123Ne/android/tree/master/onTouchListenerDemo
+3>andriod零散知识点总结:
+    https://blog.csdn.net/qq_36287601/article/details/79648438
+4>Activity的状态:
+    https://blog.csdn.net/qq_36287601/article/details/79619031
+5>其他:Android studio 里的Cannot resolve symbol 'R'问题
+    https://mp.csdn.net/postedit/79574131
+三、本周感想(2018.3.18-3.24)
+    1.需多了解学习android api
+　　2.多研究实际项目的代码，找出项目中某一小功能实现的方法，研究下　
+　　　其所用的知识点，并以此知识点自己实际动手仿写相同功能，利于自己
+　　　更深刻理解某一知识点。　
+四、下周代办(2018.3.25-3.31)
+    1.事件监听: 高级控件(ListView GridView)监听 =》OnItemClickListener
+    		SeekBar的onSeekBarChangListenner
+    2.andorid studio2.2新布局:ConstraintLayout
+    3.android 新增动画：属性动画
+    4.仿写登陆界面
+　　5.下拉刷新功能
+    6.省市区三级联动功能(代定)
+    7.短信验证码功能(代定)
+ 
