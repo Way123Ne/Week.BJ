@@ -1,0 +1,46 @@
+一、本周完成(2018.4.2-4.7)
+1>数据库Sqlite
+1.1学习使用SharedPreferences类
+1.2学习使用SqliteOpenHelper类
+2>通知Notification
+2.1学习使用Notification类
+2.2学习使用NotificationManager类
+2.3学习使用PendingIntent类
+3>学习android UI新布局之约束布局ConstraintLayout
+4>仿写分页滑动小demo
+5>其他
+5.1 数据存储的几种形式及其区别?(简) 
+5.2 eclipse日常使用常见问题总结(本周)
+5.3 android studio使用中遇到的问题？(本周)
+二、本周总结(2018.4.2-4.7)
+1>数据库Sqlite
+1.1学习使用SharedPreferences类
+   https://github.com/Way123Ne/android/tree/master/SharedPreferencesDemo
+1.2学习使用SqliteOpenHelper类
+   https://github.com/Way123Ne/android/tree/master/SqliteOpenHelperDemo
+2>通知Notification
+  学习使用Notification、NotificationManager、PendingIntent类
+  https://github.com/Way123Ne/android/tree/master/NotifyTest
+3>学习android UI新布局之约束布局ConstraintLayout
+  https://github.com/Way123Ne/android/tree/master/ConstraintLayoutDemo
+4>仿写分页滑动小demo
+  https://github.com/Way123Ne/android/tree/master/PageView
+5>其他
+5.1 数据存储的几种形式及其区别?(简) 
+    https://blog.csdn.net/qq_36287601/article/details/78997516
+5.2 eclipse日常使用常见问题总结(本周)
+    https://blog.csdn.net/qq_36287601/article/details/79844445
+5.3 android studio使用中遇到的问题？(本周)
+    https://blog.csdn.net/qq_36287601/article/details/79824450
+    https://blog.csdn.net/qq_36287601/article/details/79824318
+三、本周感想(2018.4.2-4.7)
+    1.需多花点时间研究代码
+    2.尝试将所学的理论知识运用到实际工作中
+      例如：将一个方法封装好，需要时调用即可 =〉封装的好处 
+四、下周代办(2018.4.9-4.14)
+    1.下拉刷新
+    2.上拉加载
+    3.DownloadManager
+    4.屏幕适配-DisplayMetrics
+    5.仿写下载apk并提示安装，附加静默安装功能(BroadcastReceiver、Handler)
+    
