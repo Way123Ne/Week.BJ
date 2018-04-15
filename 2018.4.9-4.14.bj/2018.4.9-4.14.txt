@@ -1,0 +1,33 @@
+一、本周完成(2018.4.9-4.14)
+1>GestureDetector类实现图片缩放
+2>SwipeRefreshLayout实现上拉刷新下拉加载
+3>改变UI主线程之Handler类的使用
+4>BroadcastReceiver的两种形式(静态&&动态)
+5>Canvas类的使用
+6>屏幕适配之DisplayMetrics类的使用
+二、本周总结(2018.4.9-4.14)
+1>GestureDetector类之图片缩放小demo
+  https://github.com/Way123Ne/android/tree/master/GestureScalePicDemo
+2>wipeRefreshLayout之上拉刷新下拉加载小demo
+  https://github.com/Way123Ne/android/tree/master/DownRefUpLoadDemo
+3>改变UI主线程之Handler使用小demo
+  https://github.com/Way123Ne/android/tree/master/HandlerDemo
+4>BroadcastReceiver两种形式
+  https://github.com/Way123Ne/android/tree/master/BroadcastReceiverDemo
+5>画布Canvns类使用小demo
+  https://github.com/Way123Ne/android/tree/master/CanvasDemo
+6>屏幕适配之DisplayMetrics类小demo
+  https://github.com/Way123Ne/android/tree/master/DisplayMetricsDemo
+三、本周感想(2018.4.9-4.14)
+   1>在研究仿写他人代码时，应重点关注他人实现该功能
+						-》思路
+						-》技术点
+     之后反复在自己大脑中回想并定期复习
+   2>及时记录好自己每周学习感想[重点]
+四、下周代办(2018.4.15-4.20)
+    1.DownloadManager
+      仿写下载apk并提示安装，附加静默安装功能(BroadcastReceiver、Handler)
+    2.短信验证码&&倒计时Button
+    3.手势实现翻页效果
+    4.实现一个自定义控件小demo
+    5.大图类使用方法
