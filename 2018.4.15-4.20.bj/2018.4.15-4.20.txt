@@ -1,0 +1,39 @@
+一、本周完成(2018.4.15-4.20)
+1>SplashActivity
+2>RoundedBitmapDrawable
+3>DownloadManager
+4>底部导航栏
+5>手势翻页
+6>倒计时按钮两种实现方式
+6.1>Timer&&TimerTask    6.2>CountDownTimer
+二、本周总结(2018.4.15-4.20)
+1>app欢迎界面~SplashActivity
+  https://github.com/Way123Ne/android/tree/master/SplashActivityDemo
+2>圆形图片~RoundedBitmapDrawable[需导入最新v4包]
+  https://github.com/Way123Ne/android/tree/master/CirclePictureDemo
+3>app下载到静默安装~DownloadManager
+  https://github.com/Way123Ne/android/tree/master/DownloadManagerDemo
+4>底部导航栏
+  https://github.com/Way123Ne/android/tree/master/BottomNavigationBarDemo2
+5>手势翻页
+  https://github.com/Way123Ne/android/tree/master/FlipPageDemo
+6>倒计时按钮两种实现方式
+  6.1>Timer&&TimerTask 
+  https://github.com/Way123Ne/android/tree/master/CountDownTimeBtn
+  6.2>CountDownTimer
+  https://github.com/Way123Ne/android/tree/master/CountDownTimeBtn2
+三、本周感想(2018.4.15-4.20)
+    1>先期仿照他人代码，后期需自己查阅android api文档独立开发
+    2>熟悉各种UI布局的特点
+    3>了解常见控件其他强大属性
+    4>项目中变量多容易忘每个变量表示什么-〉给每个变量做好注释
+四、下周代办(2018.4.22-4.28)
+    1.自定义控件入门-BitmapShader
+    2.了解如下开源框架：
+      未了解:
+             图片加载：Picasso
+       	     网络请求：okHttp
+             事件总线：EventBus
+   　 已初步了解:
+             数据库：Greendao
+　　　       网络解析：Gson
