@@ -1,0 +1,31 @@
+一、本周完成(2018.5.7-5.12)
+1>小知识点
+  1.1 return关键字在java中的两种用法
+  1.2 return关键字在android小demo中的用法
+  1.3 布尔基本数据类型flag使用方法小demo
+  1.4 logcat中报错部分不一定是红色error部分，绿色正常输出日志也可报错
+2>复习
+  1.1 Activity生命周期
+  1.2 Fragment生命周期&&静态、动态使用方法
+  1.3 Service生命周期&&两种使用方法
+3>第一款小app:
+  3.1 编写第一款小app技术文档(编写中)
+  3.2 完善登陆页面密码找回相关页面草图
+  3.3 初步采取简单工厂设计模式
+二、本周总结(2018.5.7-5.12)
+1>return关键字在java中的两种用法
+  https://github.com/Way123Ne/JavaSE/tree/master/ReturnInJavaDemo
+2>return关键字在android小demo中的用法
+  https://github.com/Way123Ne/android/tree/master/ReturnInAndroidDemo
+3>布尔基本数据类型flag使用方法小demo
+  https://github.com/Way123Ne/android/tree/master/FlagDemo
+4>logcat中报错部分不一定是红色error部分，绿色正常输出日志也可报错
+  https://blog.csdn.net/qq_36287601/article/details/80260794
+三、本周感想(2018.5.7-5.12)
+    1>多看项目，理清项目代码，忌代码逻辑理清个大体逻辑，消灭"差一点"
+    2>保持各功能点独立同时和其他功能有联系，忌开发时将多个功能点
+      堆放在一起开发，易发生错误
+    3>不要随便直接修改他人代码
+四、下周代办(2018.5.14-5.19)
+    1.编写完成第一款app技术文档 
+    2.初步开发完成登陆页面、注册页面、密码找回页面

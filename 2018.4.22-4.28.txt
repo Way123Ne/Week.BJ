@@ -1,0 +1,31 @@
+一、本周完成(2018.4.22-4.28)
+1>自定义控件三种实现方式
+2>android与JS交互
+3>初步了解的框架: Picasso&&okHttp&&EventBus
+二、本周总结(2018.4.22-4.28)
+1>自定义控件三种实现方式：
+  1.组合控件
+  https://github.com/Way123Ne/android/tree/master/CustomViewDemo
+  2.自绘控件
+  https://github.com/Way123Ne/android/tree/master/CustomViewDemo2
+  3.继承已有控件View,未实现
+2>android与js交互:
+  1.android调用js
+  https://github.com/Way123Ne/android/tree/master/AndriodCallJsDemo
+  2.js调用android
+  https://github.com/Way123Ne/android/tree/master/JSCallAndroidDemo
+3>初步了解如下框架使用方法：
+  1.大图~Picasso
+  https://github.com/Way123Ne/android/tree/master/PicassoDemo
+  2.网络请求~okHttp
+  https://github.com/Way123Ne/android/tree/master/OkHttpDemo
+  3.事件总线~EventBus
+  https://github.com/Way123Ne/android/tree/master/EventBusDemo
+三、本周感想(2018.4.22-4.28)
+    1>切忌100%相信logcat日志所报的错误，主要还是自己分析bug,同时
+      借助logcat报错日至的相关信息
+    2>logcat日志报错需仔细分析error全部部分，切忌只分析error部分信息
+四、下周代办(2018.4.29-5.5)
+    1.尝试做个自己的小app,准备如下：
+      1>设计草图          2>开发文档
+   
