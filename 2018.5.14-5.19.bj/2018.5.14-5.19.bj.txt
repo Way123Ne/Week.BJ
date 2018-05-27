@@ -1,0 +1,26 @@
+一、本周完成(2018.5.14-5.19)
+1>初步写好第一款app技术文档
+2>完成第一款app登陆页面、新用户注册页面、密码找回页面
+3>调用系统相机拍照demo
+4>as使用中遇到的问题总结
+5>其他
+5.1 .jar与.aar区别	5.2 JNI与NDK区别
+5.3 .so文件在eclipse和as中存放位置的区别
+二、本周总结(2018.5.14-5.19)
+1>第一款app技术文档初稿(附件)
+2>登陆页面、新用户注册页面、密码找回页面(附件)
+3>调用系统相机拍照demo
+  https://github.com/Way123Ne/android/tree/master/CallCameraDemo
+4>as使用中遇到的问题总结
+4.1 修改android studio 默认api level(sdk version)
+    https://blog.csdn.net/qq_36287601/article/details/80331614
+5>其他
+  .jar与.aar区别 && JNI与NDK区别 && .so文件在eclipse和as中存放位置的区别
+    https://mp.csdn.net/postedit/79648438
+三、本周感想(2018.5.14-5.19)
+    1>开发的功能点需考虑后期需求是否更改，他人是否易于维护
+    2>培养独立解决问题的能力：尝试拿到开发文档进行独立开发
+四、下周代办(2018.5.21-5.26)
+    1>采用一个activity中嵌套4个fragment的方法开发第一款app主界面[动态向activity中添加fragment]
+    2>编写完成登陆跳转后的主activity页面
+    3>编写完成底部导航栏4个fragment页面
