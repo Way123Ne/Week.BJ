@@ -1,0 +1,34 @@
+一、本周完成(2018.5.28-6.2)
+1>找回密码页面点击快速发送按钮实现快速发送短信功能
+2>登陆页面点击上传头像字样(调用相机拍照或相册选择照片)
+  实现设置头像功能
+3>首页Fragment页面中添加ViewPager滑动功能
+4>分类Fragment页面左侧添加分类明细导航栏(各类别可互相切换)
+5>购物车Fragment页面中添加ListView同时自定义每个item(xml代码实现)
+  支持下拉加载更多功能
+6>其他
+6.1 this、getContext()、getActivity()、getApplication()、getApplicationContext()的区别
+6.2 ListView在Fragment中使用的注意事项
+6.3 android studio解决Could not find method android() for arguments问题?
+二、本周总结(2018.5.28-6.2)
+1.功能实现截图(附件)
+2.其他
+2.1 this、getContext()、getActivity()、getApplication()、getApplicationContext()的区别?
+    https://blog.csdn.net/qq_36287601/article/details/80504372
+2.2 ListView在Fragment中使用的注意事项
+    https://blog.csdn.net/qq_36287601/article/details/80518523
+2.3 android studio解决Could not find method android() for arguments问题?
+    https://blog.csdn.net/qq_36287601/article/details/80490864
+三、本周感想(2018.5.28-6.2)
+1.学习使用思维导图有助于理清逻辑
+2.部分细节知识点未掌握，需补充学习
+3.当一个用户反映出一个小bug时,估计没啥问题,但当2-3个左右的用户反映出
+  相同小bug时,需关注该小bug，确保系统正常运行,小事上更要上心
+四、下周代办(2018.6.4-6.9)
+    1>首页Fragment页面中添加html页面,点击text或image调转到对应网页
+    2>首页Fragment页面点击扫描二维码按钮,可正常调起扫描页面
+    3>分类Fragment页面左侧类别导航栏为每个不同的RadioButton添加
+      所其所对应的不同页面
+    4>购物车Fragment页面点击ListView中的每个item后跳转到商品详情页面
+    5>购物车Fragment页面实现全选按钮功能
+    6>购物车Fragment页面点击结算按钮调起微信支付功能(待定)
