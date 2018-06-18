@@ -1,0 +1,33 @@
+一、本周完成(2018.6.11-6.17)
+1>向底部导航栏-分类Fragment页面中嵌套二级Fragment,
+  实现左侧为商品分类类别，右侧为每种类别所包含的具体商品
+2>底部导航栏-购物车Fragment页面实现全选、反选、计算商品价格功能
+3>其他:as使用常见错误总结
+  3.1 Error:Execution failed for task :app:mergeDebugResources>
+      Some file crunching failed
+  3.2 导入依赖与当前版本不兼容解决方法
+  3.3“Cannot resolve symbol xxx”解决办法
+二、本周总结(2018.6.11-6.17)
+1.底部导航栏-分类Fragment页面中嵌套二级Fragment问题总结：
+  1>对Fragment中嵌套的Fragment管理-getChildFragmentManager
+  2>注意：继承Fragment 时所导包(区分android本身包还是V4包)
+2.底部导航栏-购物车Fragment页面实现全选、反选、计算商品价格功能问题总结:
+  1>未解决bug-选中ListView中下一页中的CheckBox，上拉回到第一页后,第二页
+    选中的item自动取消勾选状态
+3.其他:as使用常见错误总结
+  3.1 Error:Execution failed for task :app:mergeDebugResources>
+      Some file crunching failed ???
+      https://blog.csdn.net/qq_36287601/article/details/80646775
+  3.2 导入依赖与当前版本不兼容解决方法 ???
+      https://blog.csdn.net/qq_36287601/article/details/80720741
+  3.3“Cannot resolve symbol xxx”解决办法 ???
+      https://blog.csdn.net/qq_36287601/article/details/80726749
+三、本周感想(2018.6.11-6.17)
+  1.需求中要求的功能点争取一次性完成
+  2.遇见不会的-多上网搜搜相关资料(开源的好处之一)
+  3.遇见2、3天解决不了的问题，需自己调整状态，有耐心
+四、下周代办(2018.6.18-6.23)
+    1>底部导航栏-首页Fragment页面中添加html页面
+    2>底部导航栏-首页Fragment页面实现二维码扫描功能
+    3>底部导航栏-购物车Fragment页面实现商品结算功能(调用微信结算sdk)
+    4>解决上周遗留bug

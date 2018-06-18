@@ -1,0 +1,37 @@
+一、本周完成(2018.6.4-6.9)
+1>优化上传头像功能，将头像裁剪后设置为圆形
+2>购物车Fragment页面，实现点击ListView中item跳转到新Activity页面
+3>其他:
+  3.1 丢弃findViewById(),拥抱ButterKnife
+  3.2 Android Studio配置Kotlin开发环境的最简单方式
+  3.3 Kotlin小demo
+  3.4 Fragment里面的ListView的item点击没反应
+  3.5 as:error:Execution failed for task :app:mergeDebugResources>
+         Some file crunching failed的根本解决方法
+  3.6 as:Error running app: Default Activity Not Found   
+二、本周总结(2018.6.4-6.9)
+1.丢弃findViewById(),拥抱ButterKnife
+  https://github.com/Way123Ne/android/tree/master/ButterKnifeDemo
+2.Android Studio配置Kotlin开发环境的最简单方式
+  https://blog.csdn.net/qq_36287601/article/details/80575732
+3.Kotlin小demo
+  https://github.com/Way123Ne/android/tree/master/KotlinDemo
+4.Fragment里面的ListView的item点击没反应?
+  https://blog.csdn.net/qq_36287601/article/details/80585301
+5.as:error:Execution failed for task :app:mergeDebugResources>
+                Some file crunching failed的根本解决方法?
+  https://blog.csdn.net/qq_36287601/article/details/80646775
+6.as:Error running app: Default Activity Not Found   
+   https://mp.csdn.net/postedit/80646778
+三、本周感想(2018.6.4-6.9)
+  1.忌:单纯的实现需求中要求的功能就ok,需考虑如下几点:
+    1>对现有功能(代码)的影响    2>对其他功能(代码)的影响
+    3>对整体功能(代码)的影响
+  2.考虑问题注意避免特例化
+  3.最新的技术，可以尝试了解下，但首要确保项目正常运行(尽量采用成熟技术)
+四、下周代办(2018.6.11-6.17)
+    1>实现首页Fragment中的二维码扫描功能
+    2>分类Fragment中嵌套Fragment(为每个类别的商品指定对应的Fragment及其布局)
+    3>购物车Fragment中全选按钮实现全选、反全选(针对ListView中每个CheckBox)
+    4>购物车Fragment中结算按钮调起微信结算sdk
+    5>研究项目中网络请求、数据存储如何使用的(待定)
