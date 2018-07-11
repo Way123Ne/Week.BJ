@@ -1,0 +1,91 @@
+一、本周完成(2018.7.2-7.7)
+1.前后台交互demo-登陆界面为例
+二、本周总结(2018.7.2-7.7)
+登录界面前后台交互总结
+
+一、前台
+
+1.环境搭建
+
+Java环境变量配置 + android开发工具adt /as
+
+2.注意
+
+前台客户端和后台PC端 保证在同一局域网(建议电脑安装360免费wifi,手机连接电脑端通过360免费创建的wifi)
+
+3.流程
+
+Listener -> path -> newURL(path)  -> new Thread -> HttpUrlConnection -> GET -> InputStream -> handler -> msg -> handler.sendMessage(msg)  -> handlerMessage(msg)
+
+二、后台
+
+1.环境搭建
+
+Java环境变量配置+后台开发工具myEclipse(自带Tomcat) +创建新的工作空间+myEclipse(破解文档)
+
+2.扫盲
+
+Java web project 工程结构:
+
+               WebRoot目录:
+
+                       Web-INF: lib ;web.xml(web project config file)
+
+                       用于存放.jsp && .html文件
+
+                       Index.jsp欢迎页面     
+
+   3.注意
+
+1>将myEclipse压缩包放入和myEclipse.ini文件中安装路径一致的路径，
+
+  (D盘创建work文件夹，将myEclipse压缩包放入里面即可)
+
+2>前台客户端和后台PC端 保证在同一局域网(建议电脑安装360免费wifi,手机连接电脑端通过360免费创建的wifi)
+
+3>项目部署到Tomcat:创建项目后Source-Servers-MyEclipse右击add Deployment(Console红色方块按钮;Servers甲壳虫&&绿色播放按钮)
+
+4>myEclipse注册激活时间问题(百度解决)
+
+   4.流程
+
+    Servletextends HttpServlet à override doGet() && doPost() à web.xml(配置文件)下新增如下内容:
+
+             <!--LoginServlet类的绝对路径  -->
+
+               <servlet>
+
+              <servlet-name>LoginServlet</servlet-name>
+
+               <servlet-class>com.wayne.servlet.LoginServlet</servlet-class>
+
+              </servlet>
+
+              <!---LoginServlet类的相对路径 -->
+
+              <servlet-mapping>
+
+              <servlet-name>LoginServlet</servlet-name>
+
+              <url-pattern>/LoginServlet</url-pattern>
+
+               </servlet-mapping>
+
+三、myEclispe破解文档:可自行百度
+
+四、源码
+
+      android前端代码：https://github.com/Way123Ne/android/tree/master/LoginRequestDemo
+
+      javaWeb后台代码：https://github.com/Way123Ne/android/tree/master/testServlet
+
+五、心得: 学会懂得与他人合作、分享
+
+三、本周感想(2018.7.2-7.7)
+1.学会懂得与他人合作、分享
+四、下周代办(2018.7.9-7.14)
+      1.优化登陆界面前后台交互demo
+         Gson解析
+         SharePerferences存储帐号秘密
+         创建android本地数据库
+      2.其他(待定)

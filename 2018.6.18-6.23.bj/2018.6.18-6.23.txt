@@ -1,0 +1,32 @@
+一、本周完成(2018.6.18-6.23)
+1>首页Fragment中实现二维码扫描功能(借助google zxing.jar)
+2>首页Fragment中添加html网页
+3>其他:
+  3.1 android中ViewHolder的基本使用方法
+  3.2 Fragment中嵌套二级Fragment
+4>android studio使用常见问题:
+  4.1 as导入依赖与当前版本不兼容解决方法?
+  4.2 as报错typo:In word?
+  4.3 as报错Cannot find the declaration of element Linearlayout?
+二、本周总结(2018.6.18-6.23)
+3.其他:
+  3.1 android中ViewHolder的基本使用方法
+  https://blog.csdn.net/qq_36287601/article/details/80791320
+  3.2 Fragment中嵌套二级Fragment demo
+  https://blog.csdn.net/qq_36287601/article/details/80766442
+4.android studio使用常见问题:
+  4.1 as导入依赖与当前版本不兼容解决方法?
+  https://blog.csdn.net/qq_36287601/article/details/80720741
+  4.2 as报错typo:In word?
+  https://blog.csdn.net/qq_36287601/article/details/80766377
+  4.3 as报错Cannot find the declaration of element Linearlayout?
+  https://blog.csdn.net/qq_36287601/article/details/80726749
+三、本周感想(2018.6.18-6.23)
+  1.主体功能开发完，需注意主体功能所涉及的细节点
+  2.部分功能虽然自己没做，但可以想想该功能如何去做(思路要有)
+    可以询问下他人，从而验证下自己的想法
+四、下周代办(2018.6.25-6.30)
+  1.梳理购物车Fragment页面中全选、反选、计算价格功能代码逻辑
+  2.研究购物车结算功能如何实现
+  3.研究网络请求&&数据库存储使用方法
+ 
