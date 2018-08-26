@@ -1,0 +1,45 @@
+一、本周完成(2018.7.30-8.4)
+1>JavaScript学习总结
+*JavaScript常用内置对象part4-7
+2>Servlet学习总结
+*Servlet简介&处理HTTP协议(一&&二)
+*Servlet运行原理(三)
+*容器对路径的处理(四)
+*Servlet特性(五)
+*Servlet demo合集(on Github)
+3>okHttp异步GET&POST请求使用方法(demo未完成)
+4>Git Bash命令行方式完整上传文件到Github步骤总结
+二、本周总结(2018.7.30-8.4)
+1>JavaScript学习总结
+*JavaScript常用内置对象part4-7
+https://blog.csdn.net/qq_36287601/article/details/81295017
+https://blog.csdn.net/qq_36287601/article/details/81295018
+https://blog.csdn.net/qq_36287601/article/details/81318915
+https://blog.csdn.net/qq_36287601/article/details/81295019
+2>Servlet学习总结
+*Servlet简介&处理HTTP协议(一&&二)
+https://blog.csdn.net/qq_36287601/article/details/81428433
+*Servlet运行原理(三)
+https://blog.csdn.net/qq_36287601/article/details/81428463
+*容器对路径的处理(四)
+https://blog.csdn.net/qq_36287601/article/details/81428491
+*Servlet特性(五)
+https://blog.csdn.net/qq_36287601/article/details/81428502
+*Servlet demo合集(on Github)
+https://github.com/Way123Ne/ServletAndJsp/tree/master/HelloServletDemo
+https://github.com/Way123Ne/ServletAndJsp/tree/master/Servlet01
+3>okHttp异步GET&POST请求使用方法(demo未完成)
+https://mp.csdn.net/postedit/81435853
+4>Git Bash命令行方式完整上传文件到Github步骤总结
+https://blog.csdn.net/qq_36287601/article/details/81435824
+三、本周感想(2018.7.30-8.4)
+1>Web后台学习，需多动手敲代码
+2>Web前台学习，多做总结同时多仿写HTML页面
+3>结合实例demo研究android第三方开源框架，需仔细总结同时多动手写demo进一步理解掌握其原理
+四、下周代办(2018.8.6-8.11)
+1.研究android第三方开源框架:
+   网络请求:okHttp(上传文件&下载文件)
+   数据库:greendao
+   消息机制:eventBus
+2.后台学习:
+   继续学习Jsp

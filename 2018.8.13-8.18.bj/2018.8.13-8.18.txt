@@ -1,0 +1,44 @@
+一、本周完成(2018.8.13-8.18)
+1>android第三方开源框架研究
+*OkHttp    *GreenDAO
+2>后台学习
+*Session简介   *过滤器&监听器   *JSON简介
+3>前台学习
+*Html&CSS小demo练习合集
+*JS小demo练习合集
+4>复习Java基础&Java API知识点
+二、本周总结(2018.8.13-8.18)
+1>android第三方开源框架研究
+*OKHttp
+  https://blog.csdn.net/qq_36287601/article/details/81806988
+  https://github.com/Way123Ne/android/tree/master/OkHttpTest
+*GreenDAO
+  https://blog.csdn.net/qq_36287601/article/details/81835557
+  https://github.com/Way123Ne/android/tree/master/GreenDAOTest
+2>后台学习
+*Session简介   
+  https://blog.csdn.net/qq_36287601/article/details/81697600
+*过滤器&监听器   
+  https://blog.csdn.net/qq_36287601/article/details/81697622
+*JSON简介
+  https://blog.csdn.net/qq_36287601/article/details/81747632
+3>前台学习
+*Html&CSS小demo练习合集
+  https://blog.csdn.net/qq_36287601/article/details/81635202
+  https://github.com/Way123Ne/htmAndcssAndJs/tree/master/HtmlDemo2/WebRoot
+*JS小demo练习合集
+  https://blog.csdn.net/qq_36287601/article/details/81635235
+  https://github.com/Way123Ne/htmAndcssAndJs/tree/master/JSDemo1
+4>Java基础&Java API知识点复习
+  https://mp.csdn.net/postedit/81865068
+三、本周感想(2018.8.13-8.18)
+1.尝试安装脱机版apk，登录部分去掉网络请求，将数据库及apk运行所需文件复制到设备对应根目录下，
+   同时安装查看数据库工具，便于自己面试时向他人展示作品
+2.多看他人写的优质代码，对比自己，找到可借鉴提升之处，同时做好总结
+3.自己手动敲一遍会更加理解他人代码的原理，印象更深刻
+四、下周代办(2018.8.20-8.25)
+1.研究android第三方开源框架:
+   消息机制:eventBus
+   图片处理框架
+2.后台学习: 视频学习ssh框架
+3.继续复习以前学习过的知识

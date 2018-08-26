@@ -1,0 +1,45 @@
+一、本周完成(2018.7.23-7.28)
+1>JavaScript学习总结
+*Js概述            *Js基础语法
+*Js常用内置对象part1-3
+2>Http&Servlet学习总结
+*Http协议简介   *Http(浏览器)请求数据解析
+*Http(服务器)响应数据解析
+*Http请求方式-POST&GET的区别
+*Tomcat服务器目录层次结构简介
+二、本周总结(2018.7.23-7.28)
+1>JavaScript学习总结
+*Js概述     
+https://blog.csdn.net/qq_36287601/article/details/81211421
+*Js基础语法
+https://blog.csdn.net/qq_36287601/article/details/81211439
+*Js常用内置对象part1
+https://blog.csdn.net/qq_36287601/article/details/81225735
+*Js常用内置对象part2
+https://blog.csdn.net/qq_36287601/article/details/81252880
+*Js常用内置对象part3
+https://blog.csdn.net/qq_36287601/article/details/81253030
+2>Http&Servlet学习总结
+*Http协议简介
+https://blog.csdn.net/qq_36287601/article/details/81270950
+*Http(浏览器)请求数据解析
+https://blog.csdn.net/qq_36287601/article/details/81271000
+*Http(服务器)响应数据解析
+https://blog.csdn.net/qq_36287601/article/details/81271090
+*Http请求方式-POST&GET的区别
+https://blog.csdn.net/qq_36287601/article/details/81272579
+*Tomcat服务器目录层次结构简介
+https://blog.csdn.net/qq_36287601/article/details/81271425
+三、本周感想(2018.7.23-7.28)
+1.项目不再于多少，研究一个项目就把它研究透彻
+2.应单独重点研究每个android第三方开源框架的使用方法
+3.每周学习总结个人觉得应添加本周完成进度模块
+四、下周代办(2018.7.30-8.4)
+1.研究android第三方开源框架:
+   网络请求:okHttp
+   数据库:greendao
+   消息机制:eventBus
+   图片缓存:picasso
+2.后台学习:
+   继续学习JavaScript&Servlet
+   

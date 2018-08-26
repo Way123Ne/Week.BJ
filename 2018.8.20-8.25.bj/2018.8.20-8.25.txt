@@ -1,0 +1,38 @@
+一、本周完成(2018.8.20-8.25)
+1>android第三方开源框架研究
+*EventBus事件总线框架研究及练习demo
+*Picasso图形缓存框架研究及练习demo
+*Picasso加载本地图片显示失败原因?
+2>ViewPager+Fragment实现仿微信滑动切换界面demo
+3>查找后台学习资料(韩顺平老师web全集)
+*Spring快速入门简介&案例
+4>Java SE知识点个人总结(复习篇)
+二、本周总结(2018.8.20-8.25)
+1>android第三方开源框架研究
+*EventBus事件总线框架研究及练习demo
+ https://blog.csdn.net/qq_36287601/article/details/82024246
+ https://github.com/Way123Ne/android/tree/master/EventBusTest
+*Picasso图形缓存框架研究及练习demo
+ https://blog.csdn.net/qq_36287601/article/details/82024513
+ https://github.com/Way123Ne/android/tree/master/PicassoTest
+*Picasso加载本地图片显示失败原因?
+ https://blog.csdn.net/qq_36287601/article/details/82024553
+2>ViewPager+Fragment实现仿微信滑动切换界面demo
+ https://blog.csdn.net/qq_36287601/article/details/82049233
+3>查找后台学习资料(韩顺平老师web全集)
+*Spring快速入门简介&案例
+  https://blog.csdn.net/qq_36287601/article/details/82084414
+  https://github.com/Way123Ne/SSH/tree/master/myspring1
+4>Java SE知识点个人总结(复习篇)
+  https://blog.csdn.net/qq_36287601/article/details/78699959
+三、本周感想(2018.8.20-8.25)
+1.当前学习总结当天完成
+2.多思考工作中项目中存在的bug产生的原因，思考是否有解决或优化的办法(从代码出发)，有利于提升个人能力
+3.多看网上其他优质开源项目代码，对比自身不足，学习他人编码风格
+4.研究=范文+demo
+四、下周代办(2018.8.27-9.1)
+1.android学习
+   研究一个目前采用android前沿技术开发的开源项目源码
+2.java web学习
+   视频学习韩顺平老师前台&Spring框架
+3.复习旧知识

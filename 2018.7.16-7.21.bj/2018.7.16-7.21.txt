@@ -1,0 +1,49 @@
+一、本周完成(2018.7.16-7.21)
+1>HTML基础知识点总结
+2>CSS基础知识点总结
+3>HTML&&CSS其他知识点总结
+4>as报错
+5>BS和CS架构简单介绍
+二、本周总结(2018.7.16-7.21)
+1>HTML基础知识点总结
+1.Html基础语法及文档结构知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81087351
+2.Html文本标记知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81087385
+3.Html图像和链接、列表知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81103410
+4.Html表格、表单知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81103383
+5.Html表单其他控件知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81138327
+2>CSS基础知识点总结
+1.CSS概述及样式表知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81138419
+2.CSS语法及样式表知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81138506
+3.CSS背景知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81150465
+4.CSS尺寸与框模型
+   https://blog.csdn.net/qq_36287601/article/details/81150478
+5.CSS浮动定位
+   https://blog.csdn.net/qq_36287601/article/details/81150490
+3>HTML&&CSS其他知识点总结
+1.html&&css文本格式化及表格样式知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81150505
+2.html&&css显示及列表样式知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81150516
+3.html&&css定位知识点个人总结
+   https://blog.csdn.net/qq_36287601/article/details/81150528
+4>as报错
+   Error running app: This version of Android Studio is incompatible with the Gradle Plugin used. Try d？？？
+   https://blog.csdn.net/qq_36287601/article/details/81106145
+5>BS和CS架构简单介绍
+   https://blog.csdn.net/qq_36287601/article/details/81153711
+三、本周感想(2018.7.16-7.21)
+  1.无论bs/cs，都需要后台---》后台很重要
+  2.html、css需多总结、多记元素标签，同时多写页面
+四、下周代办(2018.7.23-7.28)
+  1.初步学习完javascript教学文档
+  2.初步学习完Http教学文档
+  3.初步学习了解web入门~Servlet
+  4.其他：研究android开源第三方框架

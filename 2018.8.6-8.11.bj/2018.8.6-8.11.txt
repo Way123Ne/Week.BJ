@@ -1,0 +1,49 @@
+一、本周完成(2018.8.6-8.11)
+1>JSP学习
+*Jsp基本语法&运行原理(一&&二)
+*Jsp转发及常见问题(三)
+*javaweb Duplicate local variable path 错误???
+*Jsp demo合集(on Github)
+2>MD5&DES加密(on Github)
+*MD5加密demo
+*DES加密demo
+3>okHttp之GET&POST请求demo(on Github)
+4>其他:
+*Cookie简介
+*Http网络请求常见错误及解决办法
+二、本周总结(2018.8.6-8.11)
+1>JSP学习
+*Jsp基本语法&运行原理(一&&二)
+  https://blog.csdn.net/qq_36287601/article/details/81459766
+*Jsp转发及常见问题(三)
+   https://blog.csdn.net/qq_36287601/article/details/81604035
+*javaweb Duplicate local variable path 错误???
+   https://blog.csdn.net/qq_36287601/article/details/81460557
+*Jsp demo合集(on Github)
+   https://blog.csdn.net/qq_36287601/article/details/81459858
+   https://github.com/Way123Ne/ServletAndJsp/tree/master/CurTimeJspDemo
+   https://github.com/Way123Ne/ServletAndJsp/tree/master/HelloJspDemo
+2>MD5&DES加密
+*MD5加密demo
+   https://github.com/Way123Ne/android/tree/master/Md5Demo
+*DES加密demo
+   https://github.com/Way123Ne/android/tree/master/DesDemo
+3>okHttp之GET&POST请求demo
+    GET demo: https://github.com/Way123Ne/android/tree/master/okHttpGet
+    POST demo: https://github.com/Way123Ne/android/tree/master/okHttpPost
+4>其他
+*Cookie简介
+   https://blog.csdn.net/qq_36287601/article/details/81604125
+*Http网络请求常见错误及解决办法
+   https://blog.csdn.net/qq_36287601/article/details/81604062
+三、本周感想(2018.8.6-8.11)
+1>加大学习力度
+2>后台学习上多动手写demo
+四、下周代办(2018.8.13-8.18)
+1.研究android第三方开源框架:
+   网络请求:okHttp(上传文件&下载文件)
+   数据库:greendao
+   消息机制:eventBus
+2.后台学习: 继续学习Cookie
+3.研究一套使用android最新技术搭建的app
+4.本周开始进行复习以前学习过的知识

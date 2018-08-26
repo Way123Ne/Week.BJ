@@ -1,0 +1,20 @@
+一、本周完成(2018.7.9-7.14)
+1>第一款app登录界面:利用Gson解析后台返回账号密码数据,同时将其保存在SharePreference类中
+2>购物车界面实现商品数量增减功能demo
+3>利用GridView实现九宫格功能模块demo
+4>九宫格锁屏demo
+二、本周总结(2018.7.9-7.14)
+1.第一款app登录界面:利用Gson解析后台返回账号密码数据,同时将其保存在SharePreference类中
+   https://blog.csdn.net/qq_36287601/article/details/80960732
+2.购物车界面实现商品数量增减功能demo
+   https://github.com/Way123Ne/android/tree/master/NumAddSubDemo
+3.利用GridView实现九宫格功能模块demo
+   https://github.com/Way123Ne/android/tree/master/NineLayout
+4.九宫格锁屏demo
+   https://mp.csdn.net/postedit/81059152
+三、本周感想(2018.7.9-7.14)
+1.多自我反省，拒绝懒惰
+四、下周代办(2018.7.16-7.21)
+      1.多学习研究android第三方 开源框架，多看人家写的代码,找到自身可提升的地方
+      2.学习后台基础知识
+      3.其他时间学习下weex
