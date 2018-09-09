@@ -1,0 +1,57 @@
+一、本周完成(2018.9.3-9.8)
+1.Web前台学习
+*Html-文字常用标签案例demo合集
+*Html-段落常用标签案例demo合集
+*Html-列表常用标签案例demo合集
+2.Web后台学习
+2.1Servlet
+*Servlet常见的三种使用方法
+-实现Servlet接口
+-继承GenericServlet
+-继承HttpServlet
+*实现同一用户的不同页面共享数据的三种方法
+-实现同一用户的不同页面共享数据方法一:sendRedirct()
+-实现同一用户的不同页面共享数据方法二:隐藏表单
+-实现同一用户的不同页面共享数据方法三:Session技术
+2.2Spring
+*DI配合接口编程
+*applicationContex 应用上下文容器中获取bean和从BeanFactory容器中获取bean区别
+二、本周总结(2018.9.3-9.8)
+1.Web前台学习
+*Html-文字常用标签案例demo合集
+  https://github.com/Way123Ne/htmAndcssAndJs/tree/master/WenZiHtmlDemo/WebRoot
+*Html-段落常用标签案例demo合集
+  https://github.com/Way123Ne/htmAndcssAndJs/tree/master/DuanLuoHtmlDemo/WebRoot
+*Html-列表常用标签案例demo合集
+  https://github.com/Way123Ne/htmAndcssAndJs/tree/master/LieBiaoHtmlDemo/WebRoot
+2.Web后台学习
+2.1Servlet
+*Servlet常见的三种使用方法
+-实现Servlet接口&&继承GenericServlet:
+  https://blog.csdn.net/qq_36287601/article/details/82390186
+-继承HttpServlet
+  https://blog.csdn.net/qq_36287601/article/details/82502014
+  https://github.com/Way123Ne/ServletAndJsp/tree/master/LoginDemo
+*实现同一用户的不同页面共享数据的三种方法
+-实现同一用户的不同页面共享数据方法一:sendRedirct()
+  https://blog.csdn.net/qq_36287601/article/details/82559057
+  https://github.com/Way123Ne/ServletAndJsp/tree/master/LoginTest
+-实现同一用户的不同页面共享数据方法二:隐藏表单&&实现同一用户的不同页面共享数据方法三:Session技术
+  https://blog.csdn.net/qq_36287601/article/details/82559567
+  https://github.com/Way123Ne/ServletAndJsp/tree/master/HiddenFormDemo
+  https://github.com/Way123Ne/ServletAndJsp/tree/master/SessionDemo
+2.2Spring
+*DI配合接口编程
+  https://blog.csdn.net/qq_36287601/article/details/82502062
+  https://github.com/Way123Ne/SSH/tree/master/myspring2
+*applicationContex 应用上下文容器中获取bean和从BeanFactory容器中获取bean区别
+  https://blog.csdn.net/qq_36287601/article/details/82559260
+  https://github.com/Way123Ne/SSH/tree/master/myspring3
+三、本周感想(2018.9.3-9.8)
+1.java Web前台后台知识成熟,运用更加灵活，从另一角度体会到java语言的魅力
+2.重点学习后台即配置,同时学会思考-编程-思考-编程的学习模式
+四、下周代办(2018.9.10-9.15)
+1.java Web前台
+   继续学习html&css&js
+2.java Web后台
+   继续学习Servlet&Spring

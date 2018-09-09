@@ -1,0 +1,42 @@
+一、本周完成(2018.8.27-9.1)
+1>android学习
+*Eclipse和Android Studio实现侧滑菜单SlidingMenu简介&案例demo
+*微信分享简介&案例demo(同微信支付&支付宝支付同一模式)
+*PickerView控件实现省市区三级联动
+2>web前台学习
+*Ajax简介&案例demo
+*jQuery简介&案例demo
+3>web后台学习
+*Spring框架层次&原理图
+*Spring java bean中依赖注入其他java bean 案例demo
+二、本周总结(2018.8.27-9.1)
+1>android学习
+*Eclipse和Android Studio实现侧滑菜单SlidingMenu简介&案例demo
+  https://blog.csdn.net/qq_36287601/article/details/82261054
+  https://github.com/Way123Ne/android/tree/master/SlideMenuTest
+*微信分享简介&案例demo(同微信支付&支付宝支付同一模式)
+  https://blog.csdn.net/qq_36287601/article/details/82261253
+  https://github.com/Way123Ne/android/blob/master/android-third-party-weixin-share.zip
+*PickerView控件实现省市区三级联动
+  https://mp.csdn.net/postedit/82343347
+2>web前台学习
+*Ajax简介&案例demo
+  https://blog.csdn.net/qq_36287601/article/details/82260941
+  https://github.com/Way123Ne/htmAndcssAndJs/tree/master/AjaxDemo1/WebRoot
+*jQuery简介&案例demo
+  https://blog.csdn.net/qq_36287601/article/details/82260982
+  https://github.com/Way123Ne/htmAndcssAndJs/tree/master/jQueryDemo1/WebRoot
+3>web后台学习
+*Spring框架层次&原理图
+  https://mp.csdn.net/postedit/82343351
+*Spring java bean中依赖注入其他java bean 案例demo
+  https://github.com/Way123Ne/SSH/tree/master/myspring1
+三、本周感想(2018.8.27-9.1)
+1.学习心得需及时记笔记
+2.合理规划学习及其他时间
+四、下周代办(2018.9.3-9.8)
+1.android学习
+   继续研究一个目前采用android前沿技术开发的开源项目源码
+2.java web学习
+   继续学习韩顺平老师前台&Spring框架
+3.复习旧知识
